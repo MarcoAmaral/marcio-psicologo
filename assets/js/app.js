@@ -85,3 +85,15 @@ createWhatsAppLink(
 	"whatsapp",
 	"Agende sua consulta pelo WhatsApp"
 );
+
+// Footer display only current year
+function displayCurrentYear(elementId) {
+	const currentYear = new Date().getFullYear();
+	const element = document.getElementById(elementId);
+	if (element) {
+		element.textContent = currentYear;
+	}
+}
+
+// Contructor of the current year to be displyed.
+displayCurrentYear('year');

@@ -101,6 +101,18 @@ h1 {
   color: #000000;
 }
 
+.footer-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+    font-size: 1rem;
+    color: #4a5568;
+}
+.address {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
 /* Media Queries */
 
 /* Small screens (mobile devices) */
