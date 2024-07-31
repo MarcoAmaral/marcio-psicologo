@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   background-color: #f7f9fc;
   display: flex;
@@ -61,7 +61,7 @@ h1 {
   margin-right: 10px;
 }
 
-/* WhatsApp button section */
+# WhatsApp button section 
 .whatsapp-button {
 	display: inline-block;
 	background-color: #25D366;
@@ -80,8 +80,8 @@ h1 {
 	box-shadow: 0 6px 8px rgba(37, 211, 102, 0.4);
 }
 
-/* Phone number section */
-#phone a {
+ # Phone number section
+ #phone a {
 	text-decoration: none;
 	color: #4a5568;
 }
@@ -90,7 +90,7 @@ h1 {
 	color: #000000;
 }
 
-/* E-mail Section */
+# E-mail Section
 #email a {
 	text-decoration: none;
 	color: #4a5568;
@@ -100,3 +100,183 @@ h1 {
 	text-decoration: none;
 	color: #000000;
 }
+
+*/
+
+/* Base styles (applies to all screen sizes) */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #3a4f66;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  color: #718096;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+.construction-message {
+  background-color: #ebf8ff;
+  color: #2b6cb0;
+  font-size: 1.1rem;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 8px solid #dff2fd;
+}
+.contact-info {
+  margin-top: 1.5rem;
+  color: #4a5568;
+  font-size: 1.1rem;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+}
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* WhatsApp button section */
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(37, 211, 102, 0.3);
+}
+.whatsapp-button:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(37, 211, 102, 0.4);
+}
+
+/* Phone number section */
+#phone a {
+  text-decoration: none;
+  color: #4a5568;
+}
+#phone a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* E-mail Section */
+#email a {
+  text-decoration: none;
+  color: #4a5568;
+}
+#email a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Media Queries */
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+  .container {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+  .contact-info {
+    font-size: 1rem;
+  }
+  .whatsapp-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium screens (tablets and small laptops) */
+@media (min-width: 577px) and (max-width: 992px) {
+  .container {
+    padding: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  .profile-image {
+    width: 250px;
+    height: 250px;
+  }
+  .contact-info {
+    font-size: 1.1rem;
+  }
+  .whatsapp-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
+
+/* Large screens (desktops and larger) */
+@media (min-width: 993px) {
+  .container {
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .subtitle {
+    font-size: 1.4rem;
+  }
+  .profile-image {
+    width: 300px;
+    height: 300px;
+  }
+  .contact-info {
+    font-size: 1.1rem;
+  }
+  .whatsapp-button {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+  }
+}
+
