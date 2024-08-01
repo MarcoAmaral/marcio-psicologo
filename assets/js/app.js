@@ -80,7 +80,7 @@ function createWhatsAppLink(phoneNumber, message, elementId, buttonText) {
 
 // Contructor of the function createWhatsAppLink
 createWhatsAppLink(
-	"5512981672615",
+	"+5512981672615",
 	"Olá, eu gostaria de saber como faço para agendar uma consulta?",
 	"whatsapp",
 	"Agende sua consulta pelo WhatsApp"

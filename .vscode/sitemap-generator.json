@@ -1,0 +1,26 @@
+{
+  "sitemap2.xml": {
+    "Protocol": "https",
+    "DomainName": "www.antoniomarcio.com.br",
+    "Root": "./",
+    "IncludeExt": [
+      ".html",
+      ".php",
+      ".js",
+      ".css",
+      ".txt"
+    ],
+    "Exclude": [],
+    "TagsToInclude": [
+      "priority",
+      "lastmod"
+    ],
+    "DefaultChangeFrequency": "monthly",
+    "TabCharacters": "\t",
+    "bIncludeWWW": true,
+    "bRemoveFileExtentions": false,
+    "bUseTrailingSlash": false,
+    "bAutomaticallyUpdateSitemap": true,
+    "bMinimized": false
+  }
+}
